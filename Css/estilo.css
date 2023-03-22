@@ -1,0 +1,62 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    color: rgb(7, 7, 7);
+    margin: 0;
+}
+
+  /* Column container */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    background-color: #64aceb;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button {
+    background-color: #64aceb;
+    border: #64aceb;
+  }
+
+  button :hover {
+    background-color: #64aceb;
+    color: aliceblue;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 80%; /* IE10 */
+    flex: 80%;
+    background-image: url("resumeback.jpg");
+    padding: 20px;
+    
+  }
+
+  .main p {
+    float: left;
+    width: 400px;
+
+
+  }
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: lightgreen;
+  }
